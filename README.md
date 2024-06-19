@@ -1,6 +1,6 @@
-Pre-training and generation of small versions of LLMs. 3 models are present - 2 versions of GPT2 -  nanao and torch based, and a Llama3 . The dataset used is the shakespear_char dataset used in NanoGPT ( https://github.com/karpathy/nanoGPT )
+Pre-training and generation of small versions of LLMs. 3 models are available - 2 versions of GPT2 -  nano and torch based, and a Llama3 . The dataset used is the shakespear_char dataset used in NanoGPT ( https://github.com/karpathy/nanoGPT )
 
-To pre-train all 3 model sinultaneously -
+To pre-train all 3 model simultaneously -
 
 python  ./compare_models.py --train
 
