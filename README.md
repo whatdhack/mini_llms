@@ -74,15 +74,6 @@ The models in this repository are trained on the `shakespeare_char` dataset, whi
 
 The dataset can be found in the `data/shakespeare_char` directory. The `prepare.py` script in that directory is used to download and pre-process the data.
 
-## Results
-
-The following chart shows the validation loss versus the iteration number for the three models. The `mini_llama3` model converges the fastest, but also appears to overfit quickly.
-
-![Validation Loss](httpshttps://miro.medium.com/v2/resize:fit:1400/1*dmbNkD5D-u45r44go_cf0g.png)
-
-Here are some sample generations from the three models:
-
-![Sample Generations](https://miro.medium.com/v2/resize:fit:1400/1*dmbNkD5D-u45r44go_cf0g.png)
 
 ## Contributing
 
